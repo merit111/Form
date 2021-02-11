@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="result.html" method="GET">
+        <div>
+          <label for="name">Name</label>
+          <input type="type" name="name" id="name" placeholder="username" required>
+        </div>
+        <div>
+         <label for="email">Email</label>
+         <input type="email" name="email" id="email" required>
+         <label for="age">Age</label>
+         <input type="number" name="age" id="age" min="18" max="150" step="5">
+         <label for="date">Birthday</label>
+         <input type="date" name="date" id="date" min="2021" max="1900">
+        </div>
+        <div>
+            <label for="place of birth">Country</label>
+            <input type="country" name="country" id="country">
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </div>
+        <div>
+            <label for="eyecolor">Eyecolor</label>
+            <select name="eyecolor" id="eyecolor">
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+        </div>
+        <div>
+          <label for="">
+              Password
+          <input type="password" name="Password" placeholder="password" required>
+          </label>
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
+        </div>  
+    </form>
+</body>
+</html>
